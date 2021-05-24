@@ -5,4 +5,4 @@ set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(FocalPoint main.cpp Recursion.cpp HashMap.cpp)
+add_executable(FocalPoint  Recursion.cpp HashMap.cpp HashMap.h main.cpp)

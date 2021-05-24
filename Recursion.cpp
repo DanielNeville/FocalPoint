@@ -10,7 +10,7 @@ namespace Recursion
     // Naive implementation.  No optimisation.
     large_t f(const large_t n)
     {
-        if (n < 3)
+        if (n < 2)
         {
             return 1;
         }
